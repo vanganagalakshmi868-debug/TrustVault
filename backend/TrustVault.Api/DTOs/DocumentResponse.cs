@@ -1,0 +1,2 @@
+namespace TrustVault.Api.DTOs;
+public class DocumentResponse { public Guid Id { get; set; } public string FileName { get; set; } = ""; public long FileSize { get; set; } public DateTime UploadedAt { get; set; } }
